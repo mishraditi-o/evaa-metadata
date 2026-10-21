@@ -1,0 +1,17 @@
+
+{
+  "name": "evaa-metadata",
+  "version": "1.0.0",
+  "description": "Metadata extraction for the EVAA backend, engine and frontend",
+  "type": "module",
+  "main": "index.js",
+  "exports": "./index.js",
+  
+"scripts": {
+  "test": "node --test ./test/metadata.test.js",
+  "example": "node examples/basic-usage.js"
+},
+  "engines": {
+    "node": ">=18"
+  }
+}
